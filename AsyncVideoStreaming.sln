@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncVideoStreaming", "AsyncVideoStreaming\AsyncVideoStreaming.csproj", "{965C0B25-EC59-48BB-99B3-754F1F7EB435}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1D8A1870-3ABE-44B6-B356-BC7A2D1B06FD}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{965C0B25-EC59-48BB-99B3-754F1F7EB435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965C0B25-EC59-48BB-99B3-754F1F7EB435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965C0B25-EC59-48BB-99B3-754F1F7EB435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965C0B25-EC59-48BB-99B3-754F1F7EB435}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

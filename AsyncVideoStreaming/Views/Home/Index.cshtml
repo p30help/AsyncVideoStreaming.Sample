@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<script type="text/javascript">
+
+    function onLoad() {
+
+        var sec = parseInt(document.location.search.substr(1));
+
+        if (!isNaN(sec))
+            mainPlayer.currentTime = sec;
+    }
+
+</script>
+
+<div class="row">
+    @*<div class="col-md-12">
+            <video width="480" height="270" controls="controls" preload="auto">
+                <source src="/api/video/mp4/sample" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="col-md-12">
+            <video autoplay="autoplay"  width="480" height="270" controls="controls" preload="metadata">
+                <source src="/api/video/mp4/example" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>*@
+    <div class="col-md-12">
+        <video id="mainPlayer" width="480" height="270"
+               controls="controls" onloadeddata="onLoad()">
+            <source src="/api/media/example.mp4" />
+        </video>
+    </div>
+
+</div>

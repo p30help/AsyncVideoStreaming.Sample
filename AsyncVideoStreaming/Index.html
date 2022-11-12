@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+
+            function onLoad() {
+                var sec = parseInt(document.location.search.substr(1));
+
+                if (!isNaN(sec))
+                    mainPlayer.currentTime = sec;
+            }
+
+        </script>
+        <title>Partial Content Demonstration</title>
+    </head>
+    <body>
+        <h3>Partial Content Demonstration</h3>
+        <hr />
+        <video id="mainPlayer" width="640" height="360" 
+            autoplay="autoplay" controls="controls" onloadeddata="onLoad()">
+            <source src="http://localhost:6200/fff/media/play/c866b877-d738-430a-bef5-e9abf5a1f0da" />
+        </video>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+﻿@font-face {
+    font-family: 'Patua One';
+    src: url(../fonts/PatuaOne-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Patua One', cursive;
+    background-color: #282828;
+    color: #777;
+}
